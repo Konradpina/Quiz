@@ -216,7 +216,7 @@ function startquiz(){
 }
 
 
-var life=3
+var life=1
 
 
 let canvas = document.getElementById('canvas');
@@ -251,7 +251,8 @@ let canvas = document.getElementById('canvas');
 
             snake.forEach(part => add(part.x, part.y));
 
-            ctx.fillStyle = 'yellow';
+            
+            ctx.fillStyle = 'red';
             add(food.x, food.y); // Food
 
             requestAnimationFrame(draw);

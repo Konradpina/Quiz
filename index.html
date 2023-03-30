@@ -24,16 +24,23 @@
         <div id="nooption" hidden class="redtext">Please choose an Answer</div>
     </div>
     <div id="theend"  class="theend">
-        <div id="snakegame" ><canvas id="canvas" width="480" height="480"></canvas>
-            <div id="life">3</div></div>
-        <div class="question">THE END</div>
+        <div class="flexgame">
+            <div class="flex1"></div>
+                <div id="snakegame" ><div id="life" class="game bacgroundcolor1">1</div><canvas class="game" id="canvas" width="480%" height="480%"></canvas>
+                <div class="end">1</div></div></div>
+            <div class="flex1"></div>
+        </div>
+        
+        
         <div class="end">Your score <div id="finalscore"></div></div>
-        <div id="fail" hidden>To Play the Snake game agin you have to eran at Least 20 points</div>
-        <div class="end"><button onclick="startquiz()" class="font end bacgroundcolor1 bordercolor1 checkbutton">Play Agin</button></div>
+        <div id="fail" class="end" hidden>To Play the Snake game agian you have to eran at Least 20 points</div>
+        <div class="end"><button onclick="startquiz()" class="font end bacgroundcolor1 bordercolor1 checkbutton">Play Agian</button></div>
         
    
     
     </div>
+
+    <!-- <div ><img id="appel" src="/Quiz-main/Quiz-main/Apple-PNG-File.png"></div> -->
 </body>
 <script src="Snake.js"></script>
 <script src="quiz2.js"></script>

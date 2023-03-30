@@ -8,7 +8,7 @@
     border: black solid;
 }
 .font{
-    font-size: 40px
+    font-size: 40px;
 }
 .header{
     position: fixed;
@@ -23,8 +23,8 @@
     align-items: center;
 }
 .question{
-    margin-top: 14%;
-    margin-bottom: 8%;
+    margin-top: 10%;
+    margin-bottom: 4%;
     font-size: 70px;
     text-align: center;
     
@@ -82,8 +82,29 @@
     text-align: center;
     font-size: 300%;
 
+
 }
 .end{
+    font-size: 200%;
     margin: 2%;
     width: 90%;
+    text-align: center;
+}
+.flexgame{
+    display: flex;
+    flex-direction: row;
+}
+.game{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0px;
+    height: 100%;
+}
+.flex1{
+    flex:1;
+}
+.transparent{
+    background-color: brown;
 }
