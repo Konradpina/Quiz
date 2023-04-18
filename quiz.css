@@ -85,7 +85,7 @@
 
 }
 .end{
-    font-size: 200%;
+    font-size: 40px;
     margin: 2%;
     width: 90%;
     text-align: center;
@@ -107,4 +107,7 @@
 }
 .transparent{
     background-color: brown;
+}
+.headerer{
+    text-align: center;
 }
